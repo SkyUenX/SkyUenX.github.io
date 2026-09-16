@@ -218,7 +218,7 @@ h1, h2, .logo {
 .about-text h2 em { font-style: normal; color: #ff1a1a; }
 .about-text p { color: var(--muted); margin-bottom: 22px; }
 .tags { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 28px; }
-.tags span { padding: 10px 26px; font-size: .9rem; font-weight: 600; background: rgba(255,26,26,.12); border: 0; clip-path: var(--hex-wide); }
+.tags span { display: inline-block; padding: 10px 26px; font-size: .9rem; font-weight: 600; background: rgba(255,26,26,.12); border: 0; border-radius: 0; clip-path: var(--hex-wide); }
 .about-buttons { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 18px; }
 .socials { display: flex; gap: 18px; }
 .socials a { color: #fff; font-weight: 600; }
