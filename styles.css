@@ -90,7 +90,7 @@ h1, h2, .logo {
 .btn-hex-filter.active, .btn-hex-filter:hover { background: var(--accent); color: #fff; }
 
 /* ===== HEXAGON AVATAR ===== */
-.hex-avatar-wrap { position: relative; display: inline-block; margin: 26px 0 10px; }
+.hex-avatar-wrap { position: relative; display: inline-block; margin: 26px 0 10px; isolation: isolate; }
 .hex-avatar-wrap.small { margin: 0; }
 .hex-avatar-wrap.center { display: flex; justify-content: center; margin-bottom: 18px; }
 .hex-avatar-border {
@@ -132,7 +132,7 @@ h1, h2, .logo {
 .hex-icon:hover { transform: translateY(-4px) scale(1.08); background: linear-gradient(135deg, #ff1a1a, #c81414); color: #fff; }
 
 /* hero — centered LinkStack style */
-.hero { padding: 50px 5vw 30px; max-width: 760px; margin: 0 auto; text-align: center; display: flex; flex-direction: column; align-items: center; position: relative; }
+.hero { padding: 50px 5vw 30px; max-width: 760px; margin: 0 auto; text-align: center; display: flex; flex-direction: column; align-items: center; position: relative; isolation: isolate; }
 .hero::before {
   content: ""; position: absolute; inset: -40px -20vw;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='100' viewBox='0 0 56 100'%3E%3Cpath d='M28 66L0 50L0 16L28 0L56 16L56 50L28 66L28 100' fill='none' stroke='%23ff1a1a' stroke-opacity='0.14'/%3E%3C/svg%3E");
