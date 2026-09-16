@@ -141,7 +141,7 @@ h1, h2, .logo {
   padding: 12px 34px;
   font-size: .9rem; margin-bottom: 8px;
 }
-.dot { width: 10px; height: 10px; border-radius: 50%; background: #ff1a1a; box-shadow: 0 0 12px #ff1a1a; animation: pulse 1.5s infinite; }
+.dot { width: 12px; height: 13px; background: #ff1a1a; box-shadow: 0 0 12px #ff1a1a; border-radius: 0; clip-path: var(--hex-pointy); animation: pulse 1.5s infinite; }
 @keyframes pulse { 50% { opacity: .4; } }
 
 .hero h1 { font-size: clamp(2.4rem, 6vw, 4.2rem); font-weight: 700; margin-top: 12px; }
