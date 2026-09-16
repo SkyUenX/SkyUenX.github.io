@@ -218,7 +218,7 @@ h1, h2, .logo {
 .about-text h2 em { font-style: normal; color: #ff1a1a; }
 .about-text p { color: var(--muted); margin-bottom: 22px; }
 .tags { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 28px; }
-.tags span { padding: 8px 16px; border-radius: 100px; font-size: .9rem; font-weight: 600; background: rgba(255,26,26,.1); border: 1px solid rgba(255,26,26,.35); }
+.tags span { padding: 10px 26px; font-size: .9rem; font-weight: 600; background: rgba(255,26,26,.12); border: 0; clip-path: var(--hex-wide); }
 .about-buttons { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 18px; }
 .socials { display: flex; gap: 18px; }
 .socials a { color: #fff; font-weight: 600; }
@@ -250,7 +250,7 @@ h1, h2, .logo {
 .project-top h3 { font-size: 1.1rem; }
 .year { font-size: .8rem; color: var(--muted); background: rgba(255,255,255,.08); padding: 4px 12px; border-radius: 100px; }
 .project-body p { color: var(--muted); font-size: .94rem; margin-bottom: 14px; min-height: 44px; }
-.tags.small span { padding: 5px 12px; font-size: .8rem; }
+.tags.small span { padding: 8px 20px; font-size: .8rem; }
 .project-links { display: flex; gap: 16px; margin-top: 14px; }
 .project-links a { color: #fff; font-weight: 600; font-size: .92rem; text-decoration: none; border-bottom: 2px solid #ff1a1a; }
 .project-links a:hover { color: #ff3030; border-color: #ff3030; }
